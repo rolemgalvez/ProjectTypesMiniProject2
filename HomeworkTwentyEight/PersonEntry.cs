@@ -16,5 +16,10 @@ namespace HomeworkTwentyEight
         {
             InitializeComponent();
         }
+
+        private void PersonEntry_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
