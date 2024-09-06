@@ -1,7 +1,7 @@
 ﻿
 namespace HomeworkTwentyEight
 {
-    partial class Form1
+    partial class PersonEntry
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace HomeworkTwentyEight
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // PersonEntry
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(373, 233);
+            this.Name = "PersonEntry";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
