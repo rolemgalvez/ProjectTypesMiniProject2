@@ -146,7 +146,6 @@ namespace HomeworkTwentyEight
             this.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Name = "PersonEntry";
             this.Text = "Person Entry Form";
-            this.Load += new System.EventHandler(this.PersonEntry_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

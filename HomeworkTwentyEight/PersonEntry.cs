@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HomeworkTwentyEightLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,12 +15,9 @@ namespace HomeworkTwentyEight
     {
         public PersonEntry()
         {
+            BindingList<AddressModel> addresses = new BindingList<AddressModel>();
+
             InitializeComponent();
-        }
-
-        private void PersonEntry_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HomeworkTwentyEightLibrary\HomeworkTwentyEightLibrary.csproj">
+      <Project>{55BC08D2-73DE-47E6-B3ED-DDA99EC2362B}</Project>
+      <Name>HomeworkTwentyEightLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
