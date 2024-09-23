@@ -13,11 +13,16 @@ namespace HomeworkTwentyEight
 {
     public partial class PersonEntry : Form
     {
+        BindingList<AddressModel> addresses = new BindingList<AddressModel>();
+
         public PersonEntry()
         {
-            BindingList<AddressModel> addresses = new BindingList<AddressModel>();
-
             InitializeComponent();
+
+            addresses.Add(new AddressModel { StreetAddress = "123 Saan Man Street", City = "Wantong City" });
+
+            addressesList.DataSource = addresses;
+            addressesList.DisplayMember = nameof(AddressModel.AddressDisplayValue);
         }
     }
 }
